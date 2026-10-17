@@ -195,7 +195,7 @@
   });
   window.addEventListener('hashchange', () => { const next = byId.get(location.hash.slice(1)); if (next !== undefined) { render(next, false); jumpToReading(); } });
   document.addEventListener('keydown', event => {
-    if (event.defaultPrevented || event.altKey || event.ctrlKey || event.metaKey || /INPUT|TEXTAREA|SELECT|BUTTON/.test(event.target.tagName) || document.querySelector('dialog[open]')) return;
+    if (event.defaultPrevented || event.target.closest('.site-header') || event.altKey || event.ctrlKey || event.metaKey || /INPUT|TEXTAREA|SELECT|BUTTON/.test(event.target.tagName) || document.querySelector('dialog[open]')) return;
     if (event.key === 'ArrowRight') { event.preventDefault(); navigate(index + 1); }
     if (event.key === 'ArrowLeft') { event.preventDefault(); navigate(index - 1); }
   });

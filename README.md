@@ -1,35 +1,38 @@
-# Hârizmî · Cebir ve Mukabele
+# Hikmet Evi
 
-Hikmet Evi okuma grubu için hazırlanmış karşılıklı kitap okuyucusu.
+Jonathan Lyons’un *Hikmet Evi* kitabına eşlik eden bağımsız okuma kütüphanesi. Kaynak metinler, Türkçe çalışma çevirileri, modern açıklamalar, haritalar ve tarihî canlandırmalar birlikte sunulur.
 
-[Tam kitap: Arapça, Türkçe ve modern açıklamalar](https://alicetinkaya76.github.io/harezmi-bir-problemin-yolculugu/)
+**Site:** [alicetinkaya76.github.io/hikmet-evi/](https://alicetinkaya76.github.io/hikmet-evi/)
 
-[Adelard: Doğa Soruları’ndan altı tam diyalog](https://alicetinkaya76.github.io/harezmi-bir-problemin-yolculugu/adelard.html)
+## Kütüphane
 
-[İdrisi ve II. Ruggiero: Dünya ve Sicilya haritaları](https://alicetinkaya76.github.io/harezmi-bir-problemin-yolculugu/idrisi.html)
+- [Hârizmî · Cebir ve Mukabele](https://alicetinkaya76.github.io/hikmet-evi/harizmi.html): 92 metin sayfası; Arapça, Türkçe ve modern okuma. Yazarın metni çevrilmiştir; 1937 editörlerinin önsözü ve dipnotları kapsam dışındadır.
+- [Adelard · Doğa Soruları](https://alicetinkaya76.github.io/hikmet-evi/adelard.html): altı tam soru-cevap diyaloğu; Latince, Türkçe ve modern açıklamalar.
+- [İdrisi · Haritalar](https://alicetinkaya76.github.io/hikmet-evi/idrisi.html): dünya ve Sicilya belgeleri, tarih ve nüsha bilgileri, modern kıyılarla yaklaşık görsel karşılaştırmalar.
+- [Fibonacci · Hesap Kitabı](https://alicetinkaya76.github.io/hikmet-evi/fibonacci.html): iki kısa Latince pasaj, Türkçe çeviri, modern açıklamalar ve tam Latince faksimile bağlantısı.
+- [Görseller](https://alicetinkaya76.github.io/hikmet-evi/gorseller.html): kitabın iki yarısından on yapay zekâ canlandırması; kısa alıntılar, basılı sayfalar, açıklamalar ve indirmeler.
+- [Kaynaklar ve çalışma yöntemi](https://alicetinkaya76.github.io/hikmet-evi/kaynaklar.html): kaynak kayıtları, kapsam bilgileri ve dosyalar.
 
-## İçerik
+## Okuma ve notlar
 
-Hârizmî’nin Cebir ve Mukabele eserinin 92 kaynak sayfası, tam Türkçe çalışma çevirisi, modern gösterimler ve kaynak taramaları karşılıklı okunabilir. Yazarın özgün metni çevrilmiştir; 1937 editörlerinin önsözü ve dipnotları çevirinin kapsamı dışındadır. Metin belirsizlikleri okuyucunun açıklama sütununda işaretlenmiştir.
+Geniş ekranda kaynak, çeviri ve modern açıklama yan yana okunur. Hârizmî ve Adelard okuyucularında mobil sekmeler, yazı boyutu, kaynak görüntüleri ve kişisel notlar bulunur. Notlar yalnız ziyaretçinin kendi tarayıcısında saklanır. Dışa ve içe aktarma okuyucu sayfasından yapılabilir.
 
-Site doğrudan kitapla açılır. Modern okuma solda, Türkçe çeviri ortada ve Arapça metin sağdadır. Kare tamamlama kanıtındaki küçük görsel etkileşim yalnız okuyucu istediğinde çalışır. Eski `kitap.html` bağlantıları sayfa işaretini koruyarak ana okuyucuya yönlenir.
-
-Kişisel sunum notları yalnız ziyaretçinin kendi tarayıcısında saklanır. Sunucuya veya bu depoya gönderilmez.
-
-Adelard seçkisi aşılama ve gerekçe/otorite tartışması (VI), işitme (XXI), Dünya tüneli (XLIX), delikli su kabı (LVIII), gök gürültüsü (LXVIII) ve kayan yıldızları (LXXIII) içerir. Her sorunun tam Latince diyaloğu, Türkçe çalışma çevirisi ve ayrı bir modern açıklaması vardır. Masaüstünde üç sütun, mobilde Türkçe ile açılan üç sekme kullanılır. Notlar iki eser için ayrı saklanır. Kaynak görüntüleri ve indirmeler de okuyucudadır.
-
-Latince dayanak, Basel Üniversitesi’nin UBH Inc 714:6 nüshasının [e-rara taramasıdır](https://doi.org/10.3931/e-rara-89236): [Löwen], [Johannes de Westfalia], [1475–1487]. Bu tarih baskıya aittir. E-rara kaydı Public Domain Mark taşır. Latincede kısaltmaları açılmış bir okuma transkripsiyonu sunulur; kuşkulu okumalar ve baskı tutarsızlıkları açıkça işaretlenir. Bu bir eleştirel edisyon değildir. Soru numaraları [Gollancz’ın 1920 çevirisiyle](https://archive.org/details/cu31924012267781) içerik üzerinden eşleştirilmiştir. Türkçe çeviri ve modern açıklamalar bu çalışma için hazırlanmıştır; günümüz açıklaması tarihsel cevabın içine katılmaz.
+Önceki adresin `#p029` gibi sayfa bağlantıları `harizmi.html` okuyucusuna taşınır. Yeni ana sayfadaki `#kutuphane` kendi bölümünü açar. `kitap.html` eski bağlantılar için korunmuştur. Tarayıcıdaki not anahtarları değiştirilmemiştir.
 
 ## Kaynaklar
 
-İdrisi seçkisi iki farklı belgeyi tarihleriyle ayırır: National Library of Israel, Eran Laor Map Collection kaydındaki Konrad Miller’in 1928 dünya birleştirmesi ile BnF Arabe 2221, 203v–204r’deki 1250–1325 tarihli Sicilya haritası. Eserin tamamlanma tarihi 1154’tür. Görseller kamu malı kayıtlarından alınmıştır; kurum, görüntü/hak kaydı ve tam kaynak esere bağlantılar haritaların altında verilir. Mobilde düşük boyutlu önizleme, yakınlaştırınca ayrıntılı yerel görüntü yüklenir. Kuzey yukarı görünümü yalnız 180° dönüş uygular; tarihsel çizimi veya yazıları yeniden üretmez.
+Hârizmî: 1937 Kahire baskısının [Vikikaynak transkripsiyonu](https://ar.wikisource.org/wiki/كتاب_الجبر_والمقابلة_(1937)) ve [Commons taraması](https://commons.wikimedia.org/wiki/File:المختصر_في_حساب_الجبر_والمقابلة_(1937).pdf).
 
-- [1937 baskısının Arapça transkripsiyonu · Vikikaynak](https://ar.wikisource.org/wiki/كتاب_الجبر_والمقابلة_(1937))
-- [1937 baskısının taraması · Wikimedia Commons](https://commons.wikimedia.org/wiki/File:المختصر_في_حساب_الجبر_والمقابلة_(1937).pdf)
-- [Rosen’in 1831 baskısı · e-rara](https://www.e-rara.ch/zut/doi/10.3931/e-rara-56713)
+Adelard: Universitätsbibliothek Basel, UBH Inc 714:6; Löwen, Johannes de Westfalia, katalog tarihi 1475–1487. [e-rara kaydı](https://doi.org/10.3931/e-rara-89236). Latince kısaltmalar açılmıştır; kuşkulu okumalar işaretlenmiştir. Bu bir eleştirel edisyon değildir.
 
-Görseller ve modern açıklamalar bu eğitim çalışması için hazırlanmıştır. Amiri yazı tipinin SIL Open Font License metni `assets/fonts/Amiri-OFL.txt` dosyasındadır. Ayrıntılı kapsam ve kaynak notları kitap okuyucusunda bulunur.
+İdrisi: Konrad Miller’in 1928 dünya birleştirmesi (National Library of Israel); BnF Arabe 2221, 203v–204r’deki 1250–1325 tarihli Sicilya haritası. Eserin tamamlanma tarihi 1154’tür. Belge ve görüntü kayıtları ilgili sayfalardadır. Modern kıyı verisi Natural Earth’tendir; eşleme yaklaşık görsel karşılaştırmadır.
 
-## Yayımlama
+Fibonacci: Boncompagni’nin 1857 Latince baskısı, s. 1–2; ETH-Bibliothek Zürich, Rar 29283: 1. [e-rara kaydı](https://doi.org/10.3931/e-rara-34352). İlk telif 1202, gözden geçirilmiş metin 1228 tarihlidir.
 
-Site derleme gerektirmeyen HTML, CSS ve JavaScript dosyalarından oluşur. GitHub Pages kaynağı `main` dalının kök dizinidir. `.nojekyll`, dosyaların statik biçimde sunulmasını sağlar.
+Türkçe çalışma çevirileri, modern açıklamalar ve tarihî canlandırmalar bu eğitim çalışması için hazırlanmıştır. Amiri yazı tipinin lisansı `assets/fonts/Amiri-OFL.txt` dosyasındadır. Tam hak ve kapsam bilgileri eser sayfalarındadır.
+
+## Yayın ve yapı
+
+Derleme veya paket kurulumu gerektirmeyen statik HTML, CSS ve JavaScript. GitHub Pages kaynağı `main` dalının kök dizinidir. `.nojekyll` statik dosya sunumunu korur.
+
+`index.html` ana sayfa, `harizmi.html` tam kitap okuyucusudur. Ortak menü ve footer sayfalarda statik olarak yer alır; `site.js` mobil menüyü çalıştırır. `site.css` ortak kimliği, diğer CSS dosyaları kendi okuma ve sayfa düzenlerini yönetir.
