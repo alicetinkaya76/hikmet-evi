@@ -1,0 +1,33 @@
+TOLEDO ÇEVİRİLERİ — ÜÇ TÜRKÇE OKUMA
+
+Bu site için hazırlanmış kısa çalışma çevirileri. Tam kitap çevirisi değildir.
+
+EL-MECISTÎ
+Göğü ve Dünya’yı nasıl konumlandırıyordu?
+
+Önce ortaya koymamız gerekenleri kısaca söyleyeyim: Gök küreseldir ve küresel bir hareket yapar. Dünya da bütün parçalarıyla birlikte, duyularımızın gösterdiği kadarıyla küreseldir ve bütün göğün ortasında yer alır. Büyüklük ve uzaklık bakımından, sabit yıldızlar küresine göre bir nokta gibidir. Kendisi yer değiştirme hareketi yapmaz. Söylediklerimizin her birini hatırlatmak için, kanıtlara dayanan kısa bir açıklama sunacağım.
+
+Bugünden okuma
+Bu paragrafta aynı modelin doğru ve yanlış parçaları yan yana durur. Dünya’nın yaklaşık küresel olması doğrudur; daha kesin biçimi kutuplardan basık bir küreye yakındır. Dünya’nın evrenin merkezinde ve hareketsiz olduğu varsayımı ise günümüz astronomisinin görüşü değildir. Göğün günlük dönüşü, esas olarak Dünya’nın kendi ekseni çevresindeki dönüşünün görünen sonucudur. “Sabit yıldızlar küresi” tarihî bir modeldir; yıldızlar tek bir kabuk üzerinde ve aynı uzaklıkta bulunmaz. Metni önemli yapan, gök olaylarını ölçülebilir bir geometrik düzen içinde açıklama çabasıdır.
+
+TIP KANUNU
+Tıp nedir; bilgi ile uygulama nasıl birleşir?
+
+Derim ki tıp, insan bedeninin sağlıklı olduğu ve sağlıktan uzaklaştığı durumları tanımayı sağlayan bir bilimdir. Amaç, mevcut sağlığı korumak ve yitirilen sağlığı geri kazandırmaktır. Biri şöyle sorabilir: “Tıp kuramsal ve uygulamalı diye ikiye ayrılır. Ona bilim diyerek tamamını kuramsal saymış olmuyor musunuz?”
+
+Bugünden okuma
+Bu tanım, tıbbın amacına hem hastalıkla ilgilenmeyi hem sağlığı korumayı dahil eder. Ardından hemen kuram ile uygulama arasındaki ilişkiyi sorar. Bugün de bir sağlık alanını anlamak için hem ilkelerini öğrenir hem bu bilgiyi nasıl kullanacağını çalışırız. Buradaki “ilim / scientia”, Orta Çağ’da sistemli bilgi anlamıyla okunmalıdır.
+
+CEBIR VE MUKABELE
+Bir kare ve on kök: otuz dokuz
+
+Kareler ve köklerin bir sayıya eşit olmasına örnek şudur: Bir kare ve onun on kökü, otuz dokuz dirheme eşittir. Bunun anlamı, bir kareye kendi kökünün on katı eklendiğinde toplamın otuz dokuz olmasıdır. Kuralı şudur: Kök sayısını yarıya indir; bu örnekte beş olur. Beşi kendisiyle çarp, yirmi beş eder. Bunu otuz dokuza ekle; altmış dört olur. Karekökünü al: sekiz. Bundan kök sayısının yarısını, yani beşi çıkar. Üç kalır; aranan karenin kökü budur. Kare ise dokuzdur.
+
+Bugünden okuma
+Bugünkü gösterimle x² + 10x = 39. Her iki yana 25 ekleriz: (x + 5)² = 64. Burada ele alınan pozitif büyüklük için x = 8 − 5 = 3.
+
+Arapça mâl ve Latince census burada bilinmeyenin karesini, Arapça cezr ve Latince radix ise kökünü anlatır. Metin işlemi x ve eşittir işareti kullanmadan, sözcüklerle kurar.
+
+Modern cebirde denklemin bir kökü de −13’tür. Bu örnek, Hârizmî’nin pozitif büyüklüklerle yaptığı tarihî hesabı izler; negatif çözümü özgün metne eklemiyoruz.
+
+Kaynak ve nüsha bilgileri: https://alicetinkaya76.github.io/hikmet-evi/gerard.html

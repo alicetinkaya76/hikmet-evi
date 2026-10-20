@@ -10,6 +10,7 @@ Jonathan Lyons’un *Hikmet Evi* kitabına eşlik eden bağımsız okuma kütüp
 - [Adelard · Doğa Soruları](https://alicetinkaya76.github.io/hikmet-evi/adelard.html): altı tam soru-cevap diyaloğu; Latince, Türkçe ve modern açıklamalar.
 - [İdrisi · Haritalar](https://alicetinkaya76.github.io/hikmet-evi/idrisi.html): dünya ve Sicilya belgeleri, tarih ve nüsha bilgileri, modern kıyılarla yaklaşık görsel karşılaştırmalar.
 - [Fibonacci · Hesap Kitabı](https://alicetinkaya76.github.io/hikmet-evi/fibonacci.html): iki kısa Latince pasaj, Türkçe çeviri, modern açıklamalar ve tam Latince faksimile bağlantısı.
+- [Toledo · Cremonalı Gerard](https://alicetinkaya76.github.io/hikmet-evi/gerard.html): El-Mecistî, İbn Sînâ’nın Tıp Kanunu ve Hârizmî’nin cebirinden üç kısa karşılaştırmalı örnek; Arapça, Gerard’ın Latince çeviri geleneği, Türkçe çalışma çevirisi ve gerçek kaynak görüntüleri. Tam eser çevirileri değildir.
 - [Görseller](https://alicetinkaya76.github.io/hikmet-evi/gorseller.html): kitabın iki yarısından on yapay zekâ canlandırması; kısa alıntılar, basılı sayfalar, açıklamalar ve indirmeler.
 - [Kaynaklar ve çalışma yöntemi](https://alicetinkaya76.github.io/hikmet-evi/kaynaklar.html): kaynak kayıtları, kapsam bilgileri ve dosyalar.
 
@@ -28,6 +29,8 @@ Adelard: Universitätsbibliothek Basel, UBH Inc 714:6; Löwen, Johannes de Westf
 İdrisi: Konrad Miller’in 1928 dünya birleştirmesi (National Library of Israel); BnF Arabe 2221, 203v–204r’deki 1250–1325 tarihli Sicilya haritası. Eserin tamamlanma tarihi 1154’tür. Belge ve görüntü kayıtları ilgili sayfalardadır. Modern kıyı verisi Natural Earth’tendir; eşleme yaklaşık görsel karşılaştırmadır.
 
 Fibonacci: Boncompagni’nin 1857 Latince baskısı, s. 1–2; ETH-Bibliothek Zürich, Rar 29283: 1. [e-rara kaydı](https://doi.org/10.3931/e-rara-34352). İlk telif 1202, gözden geçirilmiş metin 1228 tarihlidir.
+
+Toledo / Gerard: El-Mecistî örneği Leiden Or. 680, f. 3r’deki el-Haccâc Arapçası ile Gerard’ın 1515 Venedik Latince baskısını karşılaştırır; [PAL kaynak metinleri](https://ptolemaeus.badw.de/work/3) ve [ETH-Bibliothek faksimilesi](https://doi.org/10.3931/e-rara-206) kullanılır. Tıp Kanunu örneği [Wellcome, Roma 1593, s. 1](https://wellcomecollection.org/works/n94uwhrk) ve [BSB, Venedik 1507, f. 1r](https://www.digitale-sammlungen.de/en/view/bsb10186839?page=17) baskılarından okunur; [LATQAN ön neşri](https://www.research.unipd.it/handle/11577/3470629) ile karşılaştırılır. Cebir örneğinde mevcut 1937 Arapça baskının s. 18–19’u ve Gerard’ın Latince çevirisinin [Libri 1838 basımı, s. 255](https://doi.org/10.3931/e-rara-61695) eşleştirilir; Robert of Chester’ın 1145 çevirisiyle karıştırılmaz. Bu sayfada yalnız üç kısa pasaj vardır. Görüntüler Gerard’ın kullandığı aynı Arapça nüsha veya kendi elyazısı değildir. PAL transkripsiyonları CC BY 4.0; Wellcome ve ETH görüntüleri Public Domain Mark; BSB Canon görüntüsü NoC-NC 1.0 koşuluyla kredilendirilir.
 
 Türkçe çalışma çevirileri, modern açıklamalar ve tarihî canlandırmalar bu eğitim çalışması için hazırlanmıştır. Amiri yazı tipinin lisansı `assets/fonts/Amiri-OFL.txt` dosyasındadır. Tam hak ve kapsam bilgileri eser sayfalarındadır.
 

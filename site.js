@@ -4,7 +4,7 @@
   const file = location.pathname.split('/').pop() || 'index.html';
   const isHome = file === 'index.html';
   const work = file === 'harizmi.html' ? 'harizmi' : file === 'adelard.html' ? 'adelard' : file.startsWith('idrisi') ? 'idrisi' : file === 'fibonacci.html' ? 'fibonacci' : '';
-  const section = isHome ? 'home' : file === 'gorseller.html' ? 'gallery' : file === 'kaynaklar.html' ? 'sources' : work === 'idrisi' ? 'maps' : work ? 'works' : '';
+  const section = isHome ? 'home' : file === 'gorseller.html' ? 'gallery' : file === 'kaynaklar.html' ? 'sources' : file === 'gerard.html' ? 'toledo' : work === 'idrisi' ? 'maps' : work ? 'works' : '';
   const mark = '<svg viewBox="0 0 48 48" fill="none" aria-hidden="true"><circle cx="24" cy="24" r="21" stroke="currentColor" stroke-width="1"/><path d="M12 15.5c4.7-1 8.6.2 12 3.3 3.4-3.1 7.3-4.3 12-3.3v17c-4.7-1-8.6.2-12 3.3-3.4-3.1-7.3-4.3-12-3.3v-17Z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/><path d="M24 19v16.5M16 21.5c1.7.1 3.1.7 4.5 1.6M16 26.5c1.7.1 3.1.7 4.5 1.6M27.5 23.1c1.4-.9 2.8-1.5 4.5-1.6M27.5 28.1c1.4-.9 2.8-1.5 4.5-1.6" stroke="currentColor" stroke-width="1" stroke-linecap="round"/><circle cx="39" cy="9" r="2.4" fill="currentColor"/></svg>';
   const current = (value, page = true) => section === value ? ` aria-current="${page ? 'page' : 'location'}"` : '';
 
@@ -19,7 +19,7 @@
         <a class="site-brand" href="./" aria-label="Hikmet Evi · Anasayfa"><span class="site-symbol">${mark}</span><span class="site-wordmark">Hikmet Evi<span class="site-tagline">Diller · Düşünceler · Yolculuklar</span></span></a>
         <button class="site-menu-toggle" type="button" aria-controls="site-navigation" aria-expanded="false"><span>Menü</span><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M3 6h14M3 10h14M3 14h14" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg></button>
         <nav id="site-navigation" class="site-navigation" aria-label="Ana menü">
-          <a href="./"${current('home')}>Anasayfa</a><a href="./#kutuphane"${current('works', false)}>Eserler</a><a href="idrisi.html"${current('maps', file === 'idrisi.html')}>Haritalar</a><a href="gorseller.html"${current('gallery')}>Görseller</a><a href="kaynaklar.html"${current('sources')}>Kaynaklar</a>
+          <a href="./"${current('home')}>Anasayfa</a><a href="./#kutuphane"${current('works', false)}>Eserler</a><a href="gerard.html"${current('toledo')}>Toledo</a><a href="idrisi.html"${current('maps', file === 'idrisi.html')}>Haritalar</a><a href="gorseller.html"${current('gallery')}>Görseller</a><a href="kaynaklar.html"${current('sources')}>Kaynaklar</a>
         </nav>
       </div>
       <div class="site-collection"><div class="site-collection-inner"><nav class="site-worknav" aria-label="Eserler arasında gezin"><span class="site-worknav-label">OKUMA MASASI</span>${[
