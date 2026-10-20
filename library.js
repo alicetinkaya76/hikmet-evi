@@ -1,24 +1,48 @@
 (() => {
   'use strict';
   const books = [...document.querySelectorAll('.library-book')];
-  const filters = [...document.querySelectorAll('[data-work-filter]')];
+  const translator = document.getElementById('translator-filter');
+  const content = document.getElementById('content-filter');
   const count = document.getElementById('work-count');
-  if (!books.length || !count) return;
-  const setFilter = value => {
-    books.forEach(book => { book.hidden = value === 'gerard' && book.dataset.translator !== 'gerard'; });
-    filters.forEach(button => button.setAttribute('aria-pressed', String(button.dataset.workFilter === value)));
-    const number = books.filter(book => !book.hidden).length;
-    count.textContent = `${number} eser`;
+  const empty = document.getElementById('library-empty');
+  const reset = document.getElementById('library-reset');
+  if (!books.length || !translator || !content || !count) return;
+
+  const applyFilters = () => {
+    books.forEach(book => {
+      const translators = (book.dataset.translators || '').split(/\s+/);
+      const matchesTranslator = translator.value === 'all' || translators.includes(translator.value);
+      const matchesContent = content.value === 'all' || book.dataset.content === content.value;
+      book.hidden = !matchesTranslator || !matchesContent;
+    });
+    const visible = books.filter(book => !book.hidden).length;
+    count.textContent = `${visible} / ${books.length} eser`;
+    if (empty) empty.hidden = visible > 0;
+    if (reset) reset.hidden = translator.value === 'all' && content.value === 'all';
   };
+
+  const resetFilters = () => {
+    translator.value = 'all';
+    content.value = 'all';
+    applyFilters();
+  };
+
   const revealLinkedBook = () => {
-    const linked = books.find(book => '#' + book.id === location.hash);
+    let linkedId;
+    try { linkedId = decodeURIComponent(location.hash.slice(1)); }
+    catch { return; }
+    const linked = books.find(book => book.id === linkedId);
     if (!linked) return;
-    if (linked.hidden) setFilter('all');
-    linked.scrollIntoView({block:'start'});
+    if (linked.hidden) resetFilters();
+    linked.scrollIntoView({block: 'start'});
   };
-  filters.forEach(button => button.addEventListener('click', () => setFilter(button.dataset.workFilter)));
-  document.body.classList.add('library-enhanced');
+
+  translator.addEventListener('change', applyFilters);
+  content.addEventListener('change', applyFilters);
+  if (reset) reset.addEventListener('click', resetFilters);
   window.addEventListener('hashchange', revealLinkedBook);
-  setFilter('all');
+  window.addEventListener('pageshow', revealLinkedBook);
+  document.body.classList.add('library-enhanced');
+  resetFilters();
   revealLinkedBook();
 })();

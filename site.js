@@ -4,7 +4,7 @@
   const file = location.pathname.split('/').pop() || 'index.html';
   const isHome = file === 'index.html';
   const work = file === 'harizmi.html' ? 'harizmi' : file === 'adelard.html' ? 'adelard' : file.startsWith('idrisi') ? 'idrisi' : file === 'fibonacci.html' ? 'fibonacci' : '';
-  const section = isHome ? 'home' : file === 'gorseller.html' ? 'gallery' : file === 'kaynaklar.html' ? 'sources' : file === 'gerard.html' || file === 'eserler.html' ? 'works' : work === 'idrisi' ? 'maps' : work ? 'works' : '';
+  const section = isHome ? 'home' : file === 'gorseller.html' ? 'gallery' : file === 'kaynaklar.html' ? 'sources' : file === 'gerard.html' || file === 'eserler.html' || file === 'ceviriler.html' ? 'works' : work === 'idrisi' ? 'maps' : work ? 'works' : '';
   const mark = '<svg viewBox="0 0 48 48" fill="none" aria-hidden="true"><circle cx="24" cy="24" r="21" stroke="currentColor" stroke-width="1"/><path d="M12 15.5c4.7-1 8.6.2 12 3.3 3.4-3.1 7.3-4.3 12-3.3v17c-4.7-1-8.6.2-12 3.3-3.4-3.1-7.3-4.3-12-3.3v-17Z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/><path d="M24 19v16.5M16 21.5c1.7.1 3.1.7 4.5 1.6M16 26.5c1.7.1 3.1.7 4.5 1.6M27.5 23.1c1.4-.9 2.8-1.5 4.5-1.6M27.5 28.1c1.4-.9 2.8-1.5 4.5-1.6" stroke="currentColor" stroke-width="1" stroke-linecap="round"/><circle cx="39" cy="9" r="2.4" fill="currentColor"/></svg>';
   const current = (value, page = true) => section === value ? ` aria-current="${page ? 'page' : 'location'}"` : '';
 
