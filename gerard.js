@@ -4,13 +4,13 @@
   const byId = new Map(samples.map(section => [section.id, section]));
   const chooser = document.getElementById('example-select');
   const mobile = matchMedia('(max-width: 1000px)');
-  const paneKeys = ['sources', 'ar', 'la', 'tr'];
   let current = samples[0];
 
   const setPane = (section, key) => {
-    if (!paneKeys.includes(key)) key = 'tr';
+    const tabs = [...section.querySelectorAll('[data-pane-target]')];
+    if (!tabs.some(tab => tab.dataset.paneTarget === key)) key = 'tr';
     section.dataset.activePane = key;
-    section.querySelectorAll('[data-pane-target]').forEach(tab => {
+    tabs.forEach(tab => {
       const active = tab.dataset.paneTarget === key;
       tab.setAttribute('aria-selected', String(active));
       tab.tabIndex = active ? 0 : -1;

@@ -14,13 +14,13 @@ Her kayıtta yazar, dil ve aktarım bilgisi, okuma kapsamı ve kaynak bağlantı
 - [Adelard · Doğa Soruları](https://alicetinkaya76.github.io/hikmet-evi/adelard.html): altı tam soru-cevap diyaloğu; Latince, Türkçe ve modern açıklamalar.
 - [İdrisi · Haritalar](https://alicetinkaya76.github.io/hikmet-evi/idrisi.html): dünya ve Sicilya belgeleri, tarih ve nüsha bilgileri, modern kıyılarla yaklaşık görsel karşılaştırmalar.
 - [Fibonacci · Hesap Kitabı](https://alicetinkaya76.github.io/hikmet-evi/fibonacci.html): iki kısa Latince pasaj, Türkçe çeviri, modern açıklamalar ve tam Latince faksimile bağlantısı.
-- [Batlamyus · El-Mecistî](https://alicetinkaya76.github.io/hikmet-evi/gerard.html#el-mecisti): Arapça, Gerard Latincesi, Türkçe çalışma çevirisi ve tarihî sayfa görüntüleriyle kısa bir pasaj. Yunanca metin ayrıca açılır; tam eser çevirisi değildir.
+- [Batlamyus · El-Mecistî](https://alicetinkaya76.github.io/hikmet-evi/gerard.html#el-mecisti): Arapça, Gerard Latincesi, Türkçe çalışma çevirisi ve tarihî sayfa görüntüleriyle kısa bir pasaj. Yunanca asıl ayrı mobil sekmede ve masaüstünde dördüncü dil sütununda yer alır; tam eser çevirisi değildir.
 - [İbn Sînâ · Tıp Kanunu](https://alicetinkaya76.github.io/hikmet-evi/gerard.html#tip-kanunu): tıbbın tanımından kısa bir pasaj; Arapça, Latince, Türkçe ve gerçek baskı görüntüleri. Tam eser çevirisi değildir.
 - [Görseller](https://alicetinkaya76.github.io/hikmet-evi/gorseller.html): kitabın iki yarısından on yapay zekâ canlandırması; kısa alıntılar, basılı sayfalar, açıklamalar ve indirmeler.
 - [Kaynaklar ve çalışma yöntemi](https://alicetinkaya76.github.io/hikmet-evi/kaynaklar.html): kaynak kayıtları, kapsam bilgileri ve dosyalar.
 
 
-Yeni sekiz kayıtta **“Eser künyesi ve kaynak bağlantısı”** etiketi bulunur. Bu eserler için sitede yeni Türkçe pasaj veya tam çeviri sunulduğu iddia edilmez. Bağlantılar, türü belirtilerek dışarıdaki gerçek yazma, baskı, eleştirel neşir kaydı ya da araştırmaya açılır:
+Yeni sekiz kayıtta **“Künye · Karşılıklı metin henüz yok”** etiketi bulunur. Astronomik Cetveller kaydındaki üç terim örneği ayrıca etiketlidir; bu eserlerin tam Türkçe çevirisi sunulduğu iddia edilmez. Bağlantılar, türü belirtilerek dışarıdaki gerçek yazma, baskı, eleştirel neşir kaydı ya da araştırmaya açılır:
 
 - [Öklid · Elementler](https://alicetinkaya76.github.io/hikmet-evi/eserler.html#euklid-elementler): Adelard I çeviri geleneği; Bruges 529 yazması ve PIMS neşir kaydı. Adelard redaksiyonları ile Campanus düzenlemesi ayrılır.
 - [Hârizmî · Astronomik Cetveller](https://alicetinkaya76.github.io/hikmet-evi/eserler.html#harizmi-zic): Mecrîtî düzenlemesi üzerinden Adelard’ın Latince aktarımı; Wellcome’daki Suter 1914 neşri. Cebir kitabından ayrıdır.
@@ -58,3 +58,19 @@ Türkçe çalışma çevirileri, modern açıklamalar ve tarihî canlandırmalar
 Derleme veya paket kurulumu gerektirmeyen statik HTML, CSS ve JavaScript. GitHub Pages kaynağı `main` dalının kök dizinidir. `.nojekyll` statik dosya sunumunu korur.
 
 `index.html` ana sayfa, `eserler.html` on dört eserin ortak kütüphanesi, `harizmi.html` tam kitap okuyucusudur. `gerard.html` üç kısa karşılaştırmalı pasajı içeren iç sayfa olarak korunur. Ortak menü ve altı eserlik footer sayfalarda statik olarak yer alır; `site.js` mobil menüyü çalıştırır ve gerektiğinde aynı gezinmeyi oluşturur. Okuyucuların dört eserlik üst altmenüsü ve kişisel not araçları korunmuştur. `site.css` ortak kimliği, diğer CSS dosyaları kendi okuma ve sayfa düzenlerini yönetir. `library.js`, `data-translators` listesini ve `data-content` (`reading` / `catalogue`) değerini kullanır; yalnız kütüphanedeki kartların görünürlüğünü değiştirir.
+
+## Karşılıklı metinlere erişim ve yeni bağlam
+
+`eserler.html` ve `ceviriler.html` üstündeki “Karşılıklı metinleri oku” alanı, üç Gerard pasajını dil kapsamlarıyla doğrudan açar. Çevirmen profilinde hazır pasajlar ile yalnız kaynak kaydı olan eserler ayrılır. Michael Scot kayıtları yeni karşılıklı çeviri iddiasında bulunmaz.
+
+[Adelard’ın kırmızı terimleri](https://alicetinkaya76.github.io/hikmet-evi/ceviriler.html#adelard-terimleri), Bodleian MS Auct. F. 1. 9 f.99v’nin gerçek renkli taramasında üç örnek sunar: ELHIGERE, ELKEBICE, ELMUHARRAM/ALMUHARRAM. Arap harfli sütun modern eşlemedir; kırmızı vurgunun Adelard’ın kendi eliyle yapıldığı ileri sürülmez. Fotoğraf © Bodleian Libraries, University of Oxford, CC BY-NC 4.0; küçük WebP gösterim kopyası ve değiştirilmemiş büyük JPEG ayrı sunulur. Okumalar Suter 1914 s.1–2 ile doğrulandı.
+
+[Astroloji ve Paris kararları](https://alicetinkaya76.github.io/hikmet-evi/yasaklar.html), özgür irade, yaratılış ve akıl tartışmalarını açıklar. Ebû Ma‘şer’in etkisi, 1215 ders sınırlamaları ve 1277’de mahkûm edilen 219 önerme ayrılır. Aquinas’ın kısa Latince pasajı ve Türkçe çalışma çevirisi birincil tanık olarak verilir.
+
+`yasaklar.html`, 1210–1277 arasında Paris ve Oxford’dan yedi kararı/karşılığı ayrı kaynaklarla sunar. 1255 kaydı yasak değil müfredattır. Kararda adı geçen metinlerle yorum yoluyla bağlanan eserler ayrılır; birincil hüküm ve tarihsel açıklama etiketlenir. Kaynaklara açık bağlantılar vardır. Native details ve hash açılmasıyla mobilde tek olay okunabilir.
+
+Görseller sayfasındaki `#cevirmenler` seçkisi iki mevcut canlandırmayı ve gerçek Bodleian belgesini bir araya getirir. Yedi profile doğrudan bağlantı vardır; yeni kişi portresi veya yeni yapay zekâ sahnesi üretilmemiştir. Orijinal on sahnenin bağlantıları ve indirmeleri korunmuştur.
+
+## Ziyaret ölçümü
+
+`analytics.js`, gerçek GA4 kimliğini script etiketindeki `data-measurement-id` alanından okur. Alan şu anda boştur: hesap oturumu ve ölçüm kimliği beklenirken hiçbir ölçüm, izin paneli veya Google isteği çalışmaz. Etkinleştirmede doğru web akışı seçilmeli ve Enhanced Measurement kapalı olmalıdır. Google Signals/reklam izinleri kodda kapalı; kişisel notlar okunmaz. Ziyaretçi izin verince yalnız temiz sayfa adresiyle page_view gönderilir. Ölçüm tercihi footer’dan değiştirilebilir. Yerel sunucuda izin arayüzü denense bile Google yüklenmez.

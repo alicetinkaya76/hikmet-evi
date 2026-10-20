@@ -191,3 +191,6 @@
 }
 
 .transmission-page .reception-event .network-sources{margin:0 22px 14px}.transmission-page .profile-grid>div>section+section{margin-top:25px}
+.transmission-page .profile-books .profile-reading-status{font:11px/1.8 var(--sans);padding-top:10px;margin-top:14px;border-top:1px solid var(--line);color:#66593e}
+.transmission-page .comparison-profile-note a{display:inline-flex;align-items:center;min-height:44px;text-decoration:underline;text-underline-offset:4px}
+.transmission-page .profile-comparison-link{display:inline-flex;align-items:center;min-height:44px;font:12px/1.8 var(--sans);text-decoration:underline;text-underline-offset:4px}

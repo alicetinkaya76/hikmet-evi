@@ -68,6 +68,13 @@
     document.querySelectorAll('.translator-profile').forEach(profile=>{profile.hidden=profile.id!==current.id;});
     document.getElementById('network-title').textContent=current.name;
     document.getElementById('network-subtitle').textContent=current.mapSummary;
+    const readingNote=document.getElementById('profile-reading-note');
+    readingNote.textContent=current.readingNote;
+    (current.readingLinks||[]).forEach(readingLink=>{
+      const link=document.createElement('a');
+      link.href=readingLink.url;link.textContent=readingLink.label+' ↗';
+      readingNote.append(document.createElement('br'),link);
+    });
     document.getElementById('map-description').textContent=current.mapSummary+' '+current.points.map(p=>data.places[p.place].name+': '+p.note).join(' ');
     stops.replaceChildren();
     current.points.forEach(point=>{
@@ -85,7 +92,20 @@
     if(location.hash==='#'+select.value) choose(select.value,true);
     else location.hash=select.value;
   });
-  window.addEventListener('hashchange',()=>{if(profiles.has(location.hash.slice(1)))choose(location.hash.slice(1),true);});
+  const followHash = (scroll=false) => {
+    const id=location.hash.slice(1);
+    if(id==='adelard-terimleri'){
+      choose('adelard');
+      document.title='Adelard’ın Arapça terimleri | Hikmet Evi';
+      if(scroll)document.getElementById(id)?.scrollIntoView({block:'start'});
+    }else if(profiles.has(id))choose(id,scroll);
+    else{
+      if(!current)choose('adelard');
+      if(id==='yasaklar')document.title='Astroloji ve Paris kararları | Hikmet Evi';
+      if(scroll)document.getElementById(id)?.scrollIntoView({block:'start'});
+    }
+  };
+  window.addEventListener('hashchange',()=>followHash(true));
   document.getElementById('map-zoom-in').addEventListener('click',()=>setZoom(zoom*1.5));
   document.getElementById('map-zoom-out').addEventListener('click',()=>setZoom(zoom/1.5));
   document.getElementById('map-reset').addEventListener('click',()=>setZoom(1));
@@ -117,7 +137,11 @@
     }
   });
   document.body.classList.add('transmission-enhanced');
-  choose(location.hash.slice(1),profiles.has(location.hash.slice(1)));
+  followHash();
+  // Initial fragment scrolling can run after deferred scripts and hide the map's reading links.
+  window.addEventListener('pageshow',()=>{
+    if(location.hash)requestAnimationFrame(()=>followHash(true));
+  });
   if(window.ResizeObserver)new ResizeObserver(render).observe(map);
   else window.addEventListener('resize',render);
 })();

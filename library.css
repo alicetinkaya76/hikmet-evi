@@ -9,3 +9,5 @@
 @media(max-width:760px){.library-tools{flex-wrap:wrap}.library-filters{flex:1}.library-filters label{min-width:150px;flex:1}.library-feature{padding:23px 24px;gap:15px}.library-feature strong{font-size:27px}.library-feature .library-feature-text{font-size:14px}.library-kind{font-size:11px}.library-source-note{font-size:13px}}
 @media(max-width:440px){.library-enhanced .library-filters{display:grid;grid-template-columns:minmax(0,1fr);gap:13px}.library-filters label{min-width:0;font-size:12px}.library-filters select{min-height:48px}.library-reset{justify-self:start}.library-count{padding-top:16px}.library-feature{padding:22px 20px;gap:12px}.library-feature strong{font-size:26px}.library-feature .library-feature-text{font-size:13px}.library-feature .library-feature-arrow{font-size:24px}.library-kind{font-size:10px}}
 @media print{.library-feature{display:none}.library-kind{border:0;padding:0}.library-book:target{box-shadow:none}}
+
+.library-context-link{font:13px/1.9 var(--sans);margin:-8px 0 26px}.library-context-link a{display:inline-flex;align-items:center;min-height:44px;text-underline-offset:4px;overflow-wrap:anywhere}

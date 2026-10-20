@@ -1,0 +1,401 @@
+/* Manuscript evidence beside modern language comparisons. */
+.adelard-terms {
+  --terms-rubric: #9a3d32;
+  margin: 40px 0;
+  padding: 32px;
+  border: 1px solid var(--line, #d7dcd2);
+  border-radius: 4px;
+  background: var(--surface, #fffdf8);
+  scroll-margin-top: 24px;
+}
+
+.adelard-terms,
+.adelard-terms * {
+  box-sizing: border-box;
+}
+
+.adelard-terms-header {
+  max-width: 900px;
+  margin-bottom: 26px;
+}
+
+.adelard-terms .eyebrow {
+  margin: 0 0 11px;
+  color: var(--brass, #9b6a3d);
+  font: 600 10px/1.6 var(--sans, sans-serif);
+  letter-spacing: 1.2px;
+}
+
+.adelard-terms-header h3 {
+  margin: 0 0 16px;
+  color: var(--ink, #183f35);
+  font: 32px/1.3 var(--serif, Georgia, serif);
+  letter-spacing: -.5px;
+}
+
+.adelard-terms p {
+  margin: 0 0 14px;
+  color: var(--muted, #65736b);
+  font: 14px/1.9 var(--sans, sans-serif);
+  overflow-wrap: break-word;
+}
+
+.adelard-terms-layout {
+  display: grid;
+  grid-template-columns: minmax(0, .85fr) minmax(0, 1.15fr);
+  align-items: start;
+  gap: 30px;
+}
+
+.adelard-terms-layout > * {
+  min-width: 0;
+}
+
+.adelard-terms-figure {
+  margin: 0;
+  padding: 12px;
+  border: 1px solid #d6d0bf;
+  background: #eee8d9;
+}
+
+.adelard-terms-image {
+  display: block;
+  cursor: zoom-in;
+}
+
+.adelard-terms-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid #d6d0bf;
+}
+
+.adelard-terms-figure figcaption {
+  padding: 13px 3px 0;
+}
+
+.adelard-terms-figure figcaption p {
+  font-size: 12px;
+  line-height: 1.8;
+  margin-bottom: 8px;
+}
+
+.adelard-terms-figure figcaption strong {
+  color: var(--ink, #183f35);
+  font-weight: 600;
+}
+
+.adelard-terms .adelard-terms-credit {
+  font-size: 11px;
+}
+
+.adelard-terms a {
+  color: var(--green, #235743);
+  text-decoration: underline;
+  text-decoration-color: #aebda8;
+  text-underline-offset: 4px;
+  overflow-wrap: anywhere;
+}
+
+.adelard-terms a:hover {
+  text-decoration-color: currentColor;
+}
+
+.adelard-terms a:focus-visible {
+  outline: 2px solid var(--brass, #9b6a3d);
+  outline-offset: 4px;
+}
+
+.adelard-terms-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2px 18px;
+}
+
+.adelard-terms-links a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  font: 12px/1.8 var(--sans, sans-serif);
+}
+
+.adelard-term-list {
+  display: grid;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.adelard-term-card {
+  min-width: 0;
+  padding: 20px;
+  border: 1px solid var(--line, #d7dcd2);
+  border-radius: 3px;
+  background: #f7f8f0;
+}
+
+.adelard-term-card h4 {
+  margin: 0 0 17px;
+  color: var(--ink, #183f35);
+  font: 23px/1.4 var(--serif, Georgia, serif);
+}
+
+.adelard-term-forms {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+  margin: 0 0 17px;
+}
+
+.adelard-term-forms > div {
+  min-width: 0;
+}
+
+.adelard-term-forms dt {
+  min-height: 34px;
+  margin-bottom: 6px;
+  color: var(--muted, #65736b);
+  font: 10px/1.65 var(--sans, sans-serif);
+}
+
+.adelard-term-forms dd {
+  margin: 0;
+  color: var(--ink, #183f35);
+  font: 20px/1.65 var(--serif, Georgia, serif);
+  overflow-wrap: anywhere;
+}
+
+.adelard-term-forms dd[lang="ar"] {
+  font: 29px/1.6 Amiri, 'Geeza Pro', serif;
+  text-align: start;
+}
+
+.adelard-term-forms .adelard-term-latin {
+  color: var(--terms-rubric);
+  font-size: 19px;
+}
+
+.adelard-terms .adelard-term-location {
+  margin-bottom: 0;
+  padding-top: 10px;
+  border-top: 1px solid #dbe1d4;
+  font-size: 11px;
+  line-height: 1.85;
+}
+
+.adelard-terms-badge {
+  display: inline-flex;
+  align-items: center;
+  min-height: 24px;
+  margin: 0 6px 3px 0;
+  padding: 2px 7px;
+  border: 1px solid #d9b5a8;
+  border-radius: 2px;
+  color: var(--terms-rubric);
+  background: #fbf1e8;
+  font: 10px/1.7 var(--sans, sans-serif);
+}
+
+.adelard-terms .adelard-terms-method {
+  margin-top: 20px;
+  padding-left: 15px;
+  border-left: 2px solid #b9c9ad;
+  font-size: 12px;
+  line-height: 1.9;
+}
+
+.adelard-terms-sources {
+  margin-top: 24px;
+  padding-top: 15px;
+  border-top: 1px solid var(--line, #d7dcd2);
+}
+
+@media (max-width: 1100px) {
+  .adelard-terms {
+    padding: 25px;
+  }
+
+  .adelard-terms-layout {
+    grid-template-columns: minmax(0, .85fr) minmax(0, 1.15fr);
+    gap: 22px;
+  }
+
+  .adelard-term-card {
+    padding: 18px;
+  }
+
+  .adelard-term-forms {
+    gap: 10px;
+  }
+
+  .adelard-term-forms dd {
+    font-size: 18px;
+  }
+
+  .adelard-term-forms .adelard-term-latin {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 800px) {
+  .adelard-terms {
+    margin: 30px 0;
+    padding: 24px 20px;
+  }
+
+  .adelard-terms-header h3 {
+    font-size: 29px;
+  }
+
+  .adelard-terms-layout {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 24px;
+  }
+
+  .adelard-terms-figure {
+    width: 100%;
+    max-width: 540px;
+    margin-inline: auto;
+  }
+
+  .adelard-terms p {
+    font-size: 14px;
+  }
+
+  .adelard-terms-figure figcaption p,
+  .adelard-terms .adelard-terms-method {
+    font-size: 13px;
+  }
+
+  .adelard-terms .adelard-terms-credit,
+  .adelard-terms .adelard-term-location {
+    font-size: 12px;
+  }
+
+  .adelard-terms-links a {
+    font-size: 13px;
+  }
+
+  .adelard-term-forms dt {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 440px) {
+  .adelard-terms {
+    padding: 22px 15px;
+  }
+
+  .adelard-terms-header h3 {
+    font-size: 27px;
+    letter-spacing: -.35px;
+  }
+
+  .adelard-terms .eyebrow {
+    font-size: 9px;
+    letter-spacing: .7px;
+  }
+
+  .adelard-terms-figure {
+    padding: 8px;
+  }
+
+  .adelard-term-card {
+    padding: 18px 15px;
+  }
+
+  .adelard-term-card h4 {
+    font-size: 23px;
+  }
+
+  .adelard-term-forms {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 12px;
+  }
+
+  .adelard-term-forms > div {
+    display: block;
+  }
+
+  .adelard-term-forms dt {
+    min-height: 0;
+    margin-bottom: 4px;
+    font-size: 11px;
+  }
+
+  .adelard-term-forms dd,
+  .adelard-term-forms .adelard-term-latin {
+    font-size: 18px;
+  }
+
+  .adelard-term-forms dd[lang="ar"] {
+    font-size: 29px;
+  }
+
+  .adelard-terms .adelard-terms-method {
+    padding-left: 12px;
+  }
+}
+
+@media print {
+  .adelard-terms {
+    margin-block: 25px;
+    padding: 18px;
+    break-before: page;
+  }
+
+  .adelard-terms-layout {
+    grid-template-columns: minmax(0, .85fr) minmax(0, 1.15fr);
+    gap: 20px;
+  }
+
+  .adelard-terms-header h3 {
+    font-size: 25px;
+  }
+
+  .adelard-terms p,
+  .adelard-terms .adelard-terms-method,
+  .adelard-terms-figure figcaption p {
+    font-size: 10px;
+  }
+
+  .adelard-term-card {
+    padding: 13px;
+    break-inside: avoid;
+  }
+
+  .adelard-term-card h4 {
+    font-size: 18px;
+  }
+
+  .adelard-term-forms {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 7px;
+  }
+
+  .adelard-term-forms > div {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 8px;
+  }
+
+  .adelard-term-forms dt {
+    min-height: 0;
+    font-size: 9px;
+  }
+
+  .adelard-term-forms dd,
+  .adelard-term-forms .adelard-term-latin {
+    font-size: 15px;
+  }
+
+  .adelard-term-forms dd[lang="ar"] {
+    font-size: 22px;
+  }
+
+  .adelard-terms-links {
+    display: none;
+  }
+}
