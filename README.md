@@ -6,11 +6,16 @@ Jonathan Lyons’un *Hikmet Evi* kitabına eşlik eden bağımsız okuma kütüp
 
 ## Kütüphane
 
+Ana menüdeki [Eserler](https://alicetinkaya76.github.io/hikmet-evi/eserler.html) bölümü altı eseri tek yerde toplar. Önceki ayrı Toledo menüsü bu bölüme katılmıştır. Hârizmî, Adelard, İdrisi ve Fibonacci’nin yanı sıra Batlamyus ile İbn Sînâ ayrı eser kartlarıyla görünür; son iki eser `gerard.html` içindeki ilgili kısa okumayı açar. Hârizmî’nin tam metni ile Gerard’ın Latince cebir örneği aynı eser kaydının iki okuma yoludur.
+
+Her kayıtta yazar, dil ve aktarım bilgisi, okuma kapsamı ve kaynak bağlantılı “Batı’daki etkisi” açıklaması bulunur. Etki notları ilgili okuyucularda da gösterilir. “Gerard’ın çevirileri” filtresi Hârizmî, Batlamyus ve İbn Sînâ’yı seçer; JavaScript kapalıyken altı eserin tamamı okunabilir. İdrisi’nin 1619 tarihli Latince alımlanması, eserin anonim özetinin çevirisi olarak belirtilir.
+
 - [Hârizmî · Cebir ve Mukabele](https://alicetinkaya76.github.io/hikmet-evi/harizmi.html): 92 metin sayfası; Arapça, Türkçe ve modern okuma. Yazarın metni çevrilmiştir; 1937 editörlerinin önsözü ve dipnotları kapsam dışındadır.
 - [Adelard · Doğa Soruları](https://alicetinkaya76.github.io/hikmet-evi/adelard.html): altı tam soru-cevap diyaloğu; Latince, Türkçe ve modern açıklamalar.
 - [İdrisi · Haritalar](https://alicetinkaya76.github.io/hikmet-evi/idrisi.html): dünya ve Sicilya belgeleri, tarih ve nüsha bilgileri, modern kıyılarla yaklaşık görsel karşılaştırmalar.
 - [Fibonacci · Hesap Kitabı](https://alicetinkaya76.github.io/hikmet-evi/fibonacci.html): iki kısa Latince pasaj, Türkçe çeviri, modern açıklamalar ve tam Latince faksimile bağlantısı.
-- [Toledo · Cremonalı Gerard](https://alicetinkaya76.github.io/hikmet-evi/gerard.html): El-Mecistî, İbn Sînâ’nın Tıp Kanunu ve Hârizmî’nin cebirinden üç kısa karşılaştırmalı örnek; Arapça, Gerard’ın Latince çeviri geleneği, Türkçe çalışma çevirisi ve gerçek kaynak görüntüleri. Tam eser çevirileri değildir.
+- [Batlamyus · El-Mecistî](https://alicetinkaya76.github.io/hikmet-evi/gerard.html#el-mecisti): Arapça, Gerard Latincesi, Türkçe çalışma çevirisi ve tarihî sayfa görüntüleriyle kısa bir pasaj. Yunanca metin ayrıca açılır; tam eser çevirisi değildir.
+- [İbn Sînâ · Tıp Kanunu](https://alicetinkaya76.github.io/hikmet-evi/gerard.html#tip-kanunu): tıbbın tanımından kısa bir pasaj; Arapça, Latince, Türkçe ve gerçek baskı görüntüleri. Tam eser çevirisi değildir.
 - [Görseller](https://alicetinkaya76.github.io/hikmet-evi/gorseller.html): kitabın iki yarısından on yapay zekâ canlandırması; kısa alıntılar, basılı sayfalar, açıklamalar ve indirmeler.
 - [Kaynaklar ve çalışma yöntemi](https://alicetinkaya76.github.io/hikmet-evi/kaynaklar.html): kaynak kayıtları, kapsam bilgileri ve dosyalar.
 
@@ -38,4 +43,4 @@ Türkçe çalışma çevirileri, modern açıklamalar ve tarihî canlandırmalar
 
 Derleme veya paket kurulumu gerektirmeyen statik HTML, CSS ve JavaScript. GitHub Pages kaynağı `main` dalının kök dizinidir. `.nojekyll` statik dosya sunumunu korur.
 
-`index.html` ana sayfa, `harizmi.html` tam kitap okuyucusudur. Ortak menü ve footer sayfalarda statik olarak yer alır; `site.js` mobil menüyü çalıştırır. `site.css` ortak kimliği, diğer CSS dosyaları kendi okuma ve sayfa düzenlerini yönetir.
+`index.html` ana sayfa, `eserler.html` altı eserin ortak kütüphanesi, `harizmi.html` tam kitap okuyucusudur. `gerard.html` üç kısa karşılaştırmalı pasajı içeren iç sayfa olarak korunur. Ortak menü ve altı eserlik footer sayfalarda statik olarak yer alır; `site.js` mobil menüyü çalıştırır ve gerektiğinde aynı gezinmeyi oluşturur. Okuyucuların dört eserlik üst altmenüsü ve kişisel not araçları korunmuştur. `site.css` ortak kimliği, diğer CSS dosyaları kendi okuma ve sayfa düzenlerini yönetir.

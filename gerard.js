@@ -29,7 +29,7 @@
       else link.removeAttribute('aria-current');
     });
     setPane(section, section.dataset.activePane || 'tr');
-    document.title = section.dataset.shortTitle + ' · Toledo çevirileri | Hikmet Evi';
+    document.title = section.dataset.shortTitle + ' · Karşılıklı okumalar | Hikmet Evi';
     if (scroll) section.scrollIntoView({block:'start'});
   };
   samples.forEach(section => {
