@@ -1,0 +1,430 @@
+{
+  "title": "Gutas ile derin okuma",
+  "intro": "Dimitri Gutas, Bağdat’taki Yunanca-Arapça çeviri hareketini, onu gerekli ve sürdürülebilir kılan toplumsal koşullar üzerinden inceler. Sarayın siyaseti, uzmanların geçim yolları, mesleklerin ihtiyaçları ve araştırmaların ilerlemesi aynı ağın parçalarıdır. İlk dört bölüm, imparatorluk ile çeviri arasındaki bağı kurar. Sonraki üç bölüm, bilginin kimler tarafından istendiğini, nasıl üretildiğini ve hangi mirasları bıraktığını araştırır. Bu rehber, her bölümün ana sorusunu görünür kılar ve tartışmayı kitabın somut örneklerine bağlar; kanıtlar için belirtilen sayfalara yönlendirir.",
+  "source": {
+    "author": "Dimitri Gutas",
+    "title": "Yunanca Düşünce Arapça Kültür",
+    "translator": "Lütfü Şimşek",
+    "pageNote": "Sayfa aralıkları Türkçe baskının basılı sayfa numaralarıdır.",
+    "contentNote": "Bu sayfa özgün özetler ve tartışma soruları içerir."
+  },
+  "chapters": [
+    {
+      "id": "bolum-1",
+      "title": "Çeviri Hareketini Hazırlayan Koşullar",
+      "range": "23–37",
+      "summary": "Fetihler, geniş bir coğrafyada mal, insan ve bilginin dolaşımını kolaylaştırdı. Irak’taki çok dilli topluluklar, yaşayan bilim gelenekleri ve kâğıdın yayılması yeni olanaklar yarattı. Gutas, bu koşulların nasıl kullanıldığını sorgular: Mevcut çeviri etkinliklerinin sürekli ve desteklenen bir harekete dönüşmesi, belirli toplumsal taleplerin doğmasına bağlıydı. Bu bölüm, imkânlarla onları harekete geçiren ihtiyaçları birlikte düşünmeye çağırır.",
+      "question": "Bir toplumda farklı dilleri bilen uzmanların bulunması, sürekli bir çeviri hareketi yaratmak için neden yeterli olmayabilir?"
+    },
+    {
+      "id": "bolum-2",
+      "title": "El-Mansûr",
+      "range": "38–65",
+      "summary": "Mansûr’un yönetimi, Sasani siyasal mirasını Abbasi iktidarının meşruluğuyla ilişkilendirir. Gutas, eski bilgilerin toplanması ve çevrilmesini bu imparatorluk anlayışı içinde inceler; astrolojik tarih de yönetime anlam ve dayanak sağlar. Beytü’l-Hikme hakkındaki sınırlı kayıtları ayrıca değerlendirerek kurumu saray kütüphanesi geleneğine yerleştirir. Böylece kitapların edinilmesi, kültürel tercih kadar yönetim politikasının da parçası olarak görünür.",
+      "question": "Bir hükümdarın eski bilgiyi toplaması, iktidarının meşruluğunu hangi yollarla güçlendirebilir?"
+    },
+    {
+      "id": "bolum-3",
+      "title": "El-Mehdî ve Oğulları",
+      "range": "66–77",
+      "summary": "Dinler arası görüşmeler ve İslam içindeki tartışmalar, düşünceleri savunmanın yöntemlerine duyulan ihtiyacı artırır. Gutas, Mehdi dönemindeki Topika çevirisini bu tartışma ortamıyla ilişkilendirir. Aristoteles’in mantık ve doğa eserleri, güncel sorulara kavram ve gerekçe sağlar. Çevrilecek kitabın seçimi böylece insanların hangi sorunları tartıştığını, kimleri ikna etmek istediğini ve hangi düşünsel araçlara ihtiyaç duyduğunu gösterir.",
+      "question": "Bir tartışmayı kazanma ihtiyacı, insanların öğrenmek istediği kitapları ve yöntemleri nasıl değiştirebilir?"
+    },
+    {
+      "id": "bolum-4",
+      "title": "El-Memûn",
+      "range": "78–105",
+      "summary": "Memûn’un iktidarı, iç savaşın ardından merkezi otoriteyi yeniden kurma çabalarıyla biçimlenir. Gutas, çevirilere verilen desteği, dini tartışmaları yönlendirme girişimlerini ve Bizans karşısındaki siyasal söylemi birlikte inceler. Aristoteles’le karşılaşma rüyasının farklı anlatımları da bu bağlamda değerlendirilir. Felsefenin itibarı, yöneticinin politikaları ve geçmişin sonradan nasıl hatırlandığı, aynı tarihsel incelemenin birbirini tamamlayan parçaları olur.",
+      "question": "Bir yöneticinin bilim hamisi olarak hatırlanmasıyla, o dönemde gerçekten yürütülen çalışmalar arasındaki farkı nasıl araştırabiliriz?"
+    },
+    {
+      "id": "bolum-5",
+      "title": "Uygulamalı ve Teorik Bilginin Hizmetindeki Çeviri",
+      "range": "108–120",
+      "summary": "Astroloji, hekimlik, hesap ve geometri bilgisi, saraydan meslek sahiplerine uzanan somut talepler yaratır. Gutas, kâtiplerin eğitimini ve matematik çalışmalarını bu çerçevede ele alır. Araştırmalar ilerledikçe yeni sorular, daha doğru metinler ve yeni çeviriler gerektirir. Böylece başlangıçta yönetim tarafından desteklenen girişim, uzmanların kendi çalışmalarının da sürekli beslediği bir bilgi üretim sürecine dönüşür.",
+      "question": "Bugün hangi mesleki veya araştırmaya dayalı ihtiyaçlar, başka dillerdeki bilginin çevrilmesini zorunlu kılıyor?"
+    },
+    {
+      "id": "bolum-6",
+      "title": "Hamiler, Çevirmenler, Çeviriler",
+      "range": "121–146",
+      "summary": "Saray mensupları, devlet görevlileri, varlıklı aileler, hekimler ve araştırmacılar farklı amaçlarla çeviri destekler. Huneyn’in çalışma çevresi, Beni Musa’nın himayesi ve Kindî’nin araştırmaları bu çeşitliliği somutlaştırır. Gutas, çevirilerin dillerini, yöntemlerini ve yeniden düzenlenmelerini ayrı metin toplulukları içinde inceler. Hangi eserin nasıl çevrildiğini anlamak, onu isteyen insanları, araştırma sorularını ve kullanım biçimlerini birlikte izlemeyi gerektirir.",
+      "question": "Bir çevirinin biçimini anlamak için çevirmenin yanında, onu destekleyen ve kullanacak olan kişileri de neden tanımamız gerekir?"
+    },
+    {
+      "id": "bolum-7",
+      "title": "Çeviri ve Tarih",
+      "range": "147–178",
+      "summary": "Gutas, çeviri hareketinin yavaşlamasını Arapça bilim ve felsefenin gelişimi içinde değerlendirir; araştırmaların ve telif eserlerin devamını izler. Çevrilen bilimlere yönelik tepkileri, belirli kişilerin ve dönemlerin koşullarında ele alır. Ayrıca Yunanca yazmaların Bizans’ta yeniden kopyalanmasıyla çeviriler arasındaki bağlantıları araştırır. Bölüm, genel yükseliş ve çöküş hikâyeleri yerine somut kanıtlarla farklı mirasları incelemeye yöneltir.",
+      "question": "Çeviri sayısının azalması, bilginin gerilemesi dışında hangi gelişmelere işaret edebilir?"
+    }
+  ],
+  "needs": [
+    {
+      "id": "tip",
+      "name": "Tıp"
+    },
+    {
+      "id": "matematik",
+      "name": "Matematik ve astronomi"
+    },
+    {
+      "id": "mantik",
+      "name": "Mantık ve felsefe"
+    },
+    {
+      "id": "siyaset",
+      "name": "Siyaset ve himaye"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "memun",
+      "name": "El-Memûn",
+      "role": "Halife ve eğitim hamisi",
+      "period": "813–833: halifeliği",
+      "needIds": [
+        "siyaset",
+        "matematik"
+      ],
+      "explanation": "Gutas’a göre Memûn’un himayesinde yetişen Beni Musa kardeşler, daha sonra kendi servetleriyle çevirileri destekledi. Yazar, bu yetişme sürecini kardeşlerin üstlendikleri bilimsel himayenin arka planında anlatır; saray çevresiyle uzmanların ilişkisi böylece görünür olur.",
+      "pages": [
+        130
+      ],
+      "connections": [
+        {
+          "connectionId": "memun-beni-musa",
+          "otherId": "beni-musa",
+          "direction": "outgoing"
+        }
+      ]
+    },
+    {
+      "id": "beni-musa",
+      "name": "Beni Musa kardeşler",
+      "role": "Araştırmacılar ve çeviri hamileri",
+      "period": "9. yüzyıl",
+      "needIds": [
+        "matematik",
+        "tip"
+      ],
+      "explanation": "Gutas, Musa ibn Şakir’in üç oğlunun servetlerini çevirilere ve bilimsel etkinliklere ayırdığını anlatır. Matematikte çalışan kardeşlerin Huneyn çevresine yaptırdıkları tıp çevirileri, bu himayenin birden çok bilim alanına uzandığını gösterir.",
+      "pages": [
+        130,
+        131
+      ],
+      "connections": [
+        {
+          "connectionId": "memun-beni-musa",
+          "otherId": "memun",
+          "direction": "incoming"
+        },
+        {
+          "connectionId": "beni-musa-huneyn",
+          "otherId": "huneyn",
+          "direction": "outgoing"
+        },
+        {
+          "connectionId": "beni-musa-sabit",
+          "otherId": "sabit",
+          "direction": "outgoing"
+        }
+      ]
+    },
+    {
+      "id": "hekim-cevreleri",
+      "name": "Buhtişû, Mâseveyh ve Tayfurî aileleri",
+      "role": "Hekim çevreleri ve tıp hamileri",
+      "period": "8–9. yüzyıllar",
+      "needIds": [
+        "tip"
+      ],
+      "explanation": "Gutas, Cündisâbur kökenli Buhtişû, Mâseveyh ve Tayfurî ailelerini önemli tıp hamileri arasında sayar. Bu hekim çevreleri, Huneyn ve arkadaşlarına Galenos’un çok sayıda eserini çevirtir; mesleki ihtiyaç böylece doğrudan çeviri talebine dönüşür.",
+      "pages": [
+        130,
+        131
+      ],
+      "connections": [
+        {
+          "connectionId": "hekim-huneyn",
+          "otherId": "huneyn",
+          "direction": "outgoing"
+        }
+      ]
+    },
+    {
+      "id": "huneyn",
+      "name": "Huneyn ibn İshak ve çalışma çevresi",
+      "role": "Çevirmenler ve uzmanlık paylaşımı",
+      "period": "9. yüzyıl",
+      "needIds": [
+        "tip"
+      ],
+      "explanation": "Gutas, Huneyn’in Galenos metinlerini Süryaniceye çevirdiği, oğlu İshak, yeğeni Hubeyş ve İsa ibn Yahya’nın da çalışmalara katıldığı bir üretim çevresi tarif eder. Çeviri, talebe göre paylaşılan uzmanlık gerektiriyordu.",
+      "pages": [
+        131,
+        137,
+        141
+      ],
+      "connections": [
+        {
+          "connectionId": "beni-musa-huneyn",
+          "otherId": "beni-musa",
+          "direction": "incoming"
+        },
+        {
+          "connectionId": "hekim-huneyn",
+          "otherId": "hekim-cevreleri",
+          "direction": "incoming"
+        }
+      ]
+    },
+    {
+      "id": "sabit",
+      "name": "Sâbit ibn Kurre",
+      "role": "Bilgin, çevirmen ve metin düzeltmeni",
+      "period": "9. yüzyıl",
+      "needIds": [
+        "matematik"
+      ],
+      "explanation": "Gutas, Beni Musa’nın çeviri desteğini anlatırken Huneyn ve Hubeyş’le birlikte Sâbit ibn Kurre’yi de anar. Eukleides’in Elemanlar’ının Arapça aktarımında Sâbit’in düzeltmeleri, matematik araştırmalarıyla metin yenilemenin bağlantısını görünür kılar.",
+      "pages": [
+        130,
+        144
+      ],
+      "connections": [
+        {
+          "connectionId": "beni-musa-sabit",
+          "otherId": "beni-musa",
+          "direction": "incoming"
+        }
+      ]
+    },
+    {
+      "id": "ahmed",
+      "name": "Ahmed ibn el-Mutasım",
+      "role": "Prens ve çeviri hamisi",
+      "period": "9. yüzyıl",
+      "needIds": [
+        "matematik",
+        "mantik",
+        "siyaset"
+      ],
+      "explanation": "Gutas, Mutasım’ın oğlu Ahmed’in Kindî’den, İbn Nâima’nın çevirdiği metnin dilini düzeltmesini istediğini aktarır. Prens ayrıca Kustâ ibn Lûkâ’ya matematik ve astronomi çevirileri ısmarlamıştır; saray himayesi böylece farklı uzmanlıklara ulaşır.",
+      "pages": [
+        124,
+        125
+      ],
+      "connections": [
+        {
+          "connectionId": "ahmed-kindi",
+          "otherId": "kindi",
+          "direction": "outgoing"
+        }
+      ]
+    },
+    {
+      "id": "kindi",
+      "name": "El-Kindî ve çevresi",
+      "role": "Filozof, araştırmacı ve çeviri hamisi",
+      "period": "9. yüzyıl",
+      "needIds": [
+        "mantik",
+        "matematik"
+      ],
+      "explanation": "Gutas’a göre Kindî, bilimsel ve felsefi araştırmaları için çeviri yaptıran, bu metinleri tartışan ve kendi eserlerini üreten bir çevrenin merkezindeydi. İbn Nâima’nın Plotinus seçmesini gözden geçirmesi, bu çalışma biçiminin somut örneğidir.",
+      "pages": [
+        131,
+        139,
+        141,
+        143
+      ],
+      "connections": [
+        {
+          "connectionId": "ahmed-kindi",
+          "otherId": "ahmed",
+          "direction": "incoming"
+        },
+        {
+          "connectionId": "kindi-ibn-naima",
+          "otherId": "ibn-naima",
+          "direction": "outgoing"
+        }
+      ]
+    },
+    {
+      "id": "ibn-naima",
+      "name": "Abdülmesih ibn Nâima",
+      "role": "Kindî çevresinde çevirmen",
+      "period": "9. yüzyıl",
+      "needIds": [
+        "mantik"
+      ],
+      "explanation": "Gutas’ın incelediği Kindî çevresinde İbn Nâima, Plotinus’un Enneadlar’ından yapılan seçmeyi çevirdi. Aristoteles’in Tanrıbilimi adıyla dolaşan bu metin, çevirmenin çalışmasıyla Kindî’nin gözden geçirmesini aynı üretim zincirinde buluşturur.",
+      "pages": [
+        124,
+        141
+      ],
+      "connections": [
+        {
+          "connectionId": "kindi-ibn-naima",
+          "otherId": "kindi",
+          "direction": "incoming"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": "memun-beni-musa",
+      "from": "memun",
+      "to": "beni-musa",
+      "relation": "Eğitim ve himaye",
+      "explanation": "Gutas, Musa ibn Şakir’in üç oğlunun Memûn’un vesayeti altında Bağdat’ta büyüyüp eğitim aldığını belirtir.",
+      "pages": [
+        130
+      ]
+    },
+    {
+      "id": "beni-musa-huneyn",
+      "from": "beni-musa",
+      "to": "huneyn",
+      "relation": "Çeviri desteği ve sipariş",
+      "explanation": "Gutas, Muhammed ibn Musa için Huneyn ve Hubeyş’in yaptığı tıp çevirilerinin listesini aktarır. Beni Musa’nın Huneyn, Hubeyş ve Sâbit’e verdiği maddi desteği de kaynaklara dayanarak anlatır.",
+      "pages": [
+        130,
+        131
+      ]
+    },
+    {
+      "id": "beni-musa-sabit",
+      "from": "beni-musa",
+      "to": "sabit",
+      "relation": "Çeviri için maddi destek",
+      "explanation": "Gutas’ın Fihrist’ten aktardığı haberde Sâbit ibn Kurre, Beni Musa’nın çeviri çalışmaları için ödeme yaptığı üç uzman arasında sayılır.",
+      "pages": [
+        130
+      ]
+    },
+    {
+      "id": "hekim-huneyn",
+      "from": "hekim-cevreleri",
+      "to": "huneyn",
+      "relation": "Galenos çevirileri ısmarlama",
+      "explanation": "Gutas’a göre Buhtişû, Mâseveyh ve Tayfurî ailelerinin hekimleri, Huneyn ve arkadaşlarına Galenos’un birçok kitabını çevirtti.",
+      "pages": [
+        130
+      ]
+    },
+    {
+      "id": "ahmed-kindi",
+      "from": "ahmed",
+      "to": "kindi",
+      "relation": "Çevrilmiş metni düzeltme talebi",
+      "explanation": "Gutas, Mutasım’ın oğlu Ahmed’in, İbn Nâima’nın çevirdiği Aristoteles’in Tanrıbilimi diye bilinen metnin dilini düzeltmesini Kindî’den istediğini aktarır.",
+      "pages": [
+        124,
+        125
+      ]
+    },
+    {
+      "id": "kindi-ibn-naima",
+      "from": "kindi",
+      "to": "ibn-naima",
+      "relation": "Çeviri çevresi ve gözden geçirme",
+      "explanation": "Gutas, Plotinus’un Enneadlar’ından seçmenin İbn Nâima tarafından çevrildiğini, Kindî tarafından düzeltildiğini belirtir; eser Aristoteles’in Tanrıbilimi adıyla tanınmıştır.",
+      "pages": [
+        141
+      ]
+    }
+  ],
+  "comparisons": [
+    {
+      "id": "iki-arastirma-sorusu",
+      "title": "Bilgi nasıl yol aldı; bu yolculuk neden başladı?",
+      "lyons": "Lyons, Adelard’ın bilgi arayışını ve Arapça bilim eserlerinin Avrupa’daki etkilerini geniş bir tarihsel anlatının içine yerleştirir. Okur, farklı şehirlerdeki karşılaşmaları, çevirmenleri ve eserleri izler. Yazarın temel ilgilerinden biri, Batı’nın kendi geçmişini anlatırken Arapça bilim geleneğine olan borcunu nasıl geri plana ittiğini görünür kılmaktır.",
+      "gutas": "Gutas, erken Abbasi toplumunda Yunancadan Arapçaya çevirinin nasıl geniş ve sürekli bir harekete dönüştüğünü sorar. Açıklamayı yalnız birkaç yetenekli çevirmenin ya da bilime meraklı hükümdarın kişiliğinde aramaz. Siyasal tercihler, farklı toplumsal çevrelerin talepleri ve maddi destek birlikte incelenir. Böylece bilginin yolculuğunun başlangıcındaki koşullar daha ayrıntılı tartışılır.",
+      "readingQuestion": "Bir kitabın başka bir dile çevrilmesini mümkün kılan koşullarla, yüzyıllar sonra başka bir toplumda etkili olmasını sağlayan koşullar aynı mıdır?",
+      "gutasPages": "15–18",
+      "lyonsPages": "11–12, 23–25",
+      "links": [
+        {
+          "label": "Çevirmenler ve bilginin yolları",
+          "href": "ceviriler.html#ceviri-haritasi"
+        },
+        {
+          "label": "Eserleri birlikte incele",
+          "href": "eserler.html#karsilikli-metinler"
+        }
+      ]
+    },
+    {
+      "id": "beytul-hikme-kurum-ve-ag",
+      "title": "Beytü’l-Hikme: kurumun sınırı nerede?",
+      "lyons": "Lyons, Beytü’l-Hikme’yi erken Abbasi yönetiminin bilimsel ve kültürel hedeflerine kurumsal destek sağlayan bir yapı olarak anlatır. Hilafet kütüphanesinin zamanla tercüme odası, kitap deposu ve âlimlerden oluşan bir akademi içerdiğini söyler. Aynı anlatıda çevirilere destek verenlerin halifelerle sınırlı olmadığını; tüccarların, bankerlerin ve başka seçkin çevrelerin de katkısını belirtir.",
+      "gutas": "Gutas, saray kütüphanesiyle bütün Yunanca–Arapça çeviri hareketini özdeşleştirmeye itiraz eder. Ona göre eldeki belgeler, Beytü’l-Hikme’nin Farsça mirasla ve saray yönetimiyle ilişkisini destekler; buranın Yunanca eserleri çeviren bir akademi olduğunu göstermez. Bu değerlendirme, Bağdat’taki çeviri faaliyetlerinin önemini azaltmaktan ziyade, belirli bir kuruma yüklenen görevlerin kanıtlarını yeniden sorgular.",
+      "readingQuestion": "Bir şehirdeki geniş bilimsel hareket hakkında bildiklerimizin ne kadarını o şehirdeki tek bir kuruma güvenle bağlayabiliriz?",
+      "gutasPages": "59–65",
+      "lyonsPages": "85–86",
+      "links": [
+        {
+          "label": "Bağdat ve çeviri çevreleri",
+          "href": "ceviriler.html"
+        },
+        {
+          "label": "Kaynakları nasıl kullanıyoruz?",
+          "href": "kaynaklar.html"
+        }
+      ]
+    },
+    {
+      "id": "toplumsal-talep",
+      "title": "Bir metne kim ihtiyaç duyuyordu?",
+      "lyons": "Lyons’un Bağdat anlatısında maddi destek, yetenekli insanları bir araya getirmenin önemli koşullarından biridir. Hârizmî’nin cebir kitabında ise miras paylaşımı, ticaret ve arazi ölçümü gibi somut kullanımlar öne çıkar. Aynı eserde matematiğe kendi değeri için duyulan ilgiyi de gösterir. Böylece gündelik ihtiyaçlarla kuramsal merakın birlikte bulunabildiği bir örnek sunar.",
+      "gutas": "Gutas, çevirilerin sürmesini açıklarken uygulamalı bilgi talebiyle gelişen bilim ve felsefenin kuramsal ihtiyaçlarını birlikte ele alır. Astroloji, tıp, hesap ve başka alanlardaki talepler farklı çevrelerden gelir. Bu bakışla çevirmen kadar, çevrilecek eseri isteyen ve çalışma için kaynak ayıran kişiyi de araştırmak gerekir; ihtiyaç duyulan bilgi çevirinin yönünü etkiler.",
+      "readingQuestion": "Hârizmî’nin kitabında bir miras problemini çözen okur ile matematiksel bir yöntemi araştıran okur aynı metinden farklı neler bekler?",
+      "gutasPages": "108–114, 121–131",
+      "lyonsPages": "85–87, 96–97",
+      "links": [
+        {
+          "label": "Hârizmî: metin ve modern açıklama",
+          "href": "harizmi.html"
+        },
+        {
+          "label": "Tıp Kanunu’ndan karşılıklı okuma",
+          "href": "gerard.html#tip-kanunu"
+        }
+      ]
+    },
+    {
+      "id": "ceviri-ve-telif",
+      "title": "Çeviriden yeni sorulara ve yeni eserlere",
+      "lyons": "Lyons, Arapça bilim çevrelerinin Yunanca metinleri tercüme etmenin yanında yeniden işlediğini, düzelttiğini ve geliştirdiğini anlatır. Hârizmî örneğinde farklı hesap ve ispat geleneklerinin bir araya gelişini izler. Daha sonra bu eserlerin Latinceye geçişini ele alır. Böylece okur, aktarımın her aşamasında yeni çalışmaların ve yeni kullanımların ortaya çıkabildiğini görür.",
+      "gutas": "Gutas, çeviriyi alıcı toplumun kendi kültürel üretimi olarak değerlendirir: hangi metnin seçildiği ve nasıl anlaşıldığı da yaratıcı süreçlerdir. Bağdat’taki büyük çeviri hareketinin yavaşlamasını, bilimsel ilginin sona ermesiyle eşitlemez. Açıklamasında Arapça yazılan yeni bilim ve felsefe eserlerinin önceki çevirileri aşması, araştırmanın ağırlığının bu yeni eserlere kayması önemli yer tutar.",
+      "readingQuestion": "Yeni bir eser eski bir çevirinin yerini aldığında, bu durumu bir geleneğin sonu olarak mı, kendi sorularını üretmesi olarak mı okumalıyız?",
+      "gutasPages": "147–150, 179–180",
+      "lyonsPages": "88, 96–98",
+      "links": [
+        {
+          "label": "Eserlerin farklı dillerdeki karşılıkları",
+          "href": "eserler.html#karsilikli-metinler"
+        },
+        {
+          "label": "Çevirilerin sonraki kullanımları",
+          "href": "ceviriler.html"
+        }
+      ],
+      "editorialNote": {
+        "title": "Tek bir din–bilim çatışması öyküsüne dikkat",
+        "text": "Gutas, değişmez ve bütün İslam toplumlarını temsil eden bir “ortodoksluk” varsayımıyla bilim tarihini açıklamaya itiraz eder. Tepkilerin hangi dönemde, hangi çevrede, hangi esere veya bilgi türüne yöneldiğini ayrı ayrı araştırmayı ister. Bilimin sonraki yüzyıllarda devam etmesiyle, belirli çeviri faaliyetlerinin yavaşlamasını birbirinden ayırır. Karşılaştırmada, belirli metinlere yönelen tepkilerle bilimsel üretimin genel seyrini ayrı ayrı incelemek gerekir.",
+        "gutasPages": "151, 162–166, 182–183",
+        "links": [
+          {
+            "label": "Avrupa’daki belirli kararları kendi bağlamında okuyun",
+            "href": "yasaklar.html"
+          }
+        ]
+      }
+    }
+  ]
+}

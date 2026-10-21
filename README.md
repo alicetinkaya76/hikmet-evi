@@ -73,4 +73,11 @@ Görseller sayfasındaki `#cevirmenler` seçkisi iki mevcut canlandırmayı ve g
 
 ## Ziyaret ölçümü
 
-GA4 ziyaret ölçümü, Hikmet Evi web akışının gerçek `G-G984Q6CE14` kimliğiyle 12 içerik sayfasında etkinleştirilmiştir. `analytics.js`, kimliği script etiketindeki `data-measurement-id` alanından okur. Enhanced Measurement akış ayarlarında kapalıdır; Google Signals ve reklam izinleri kodda kapalıdır. Google etiketi yalnız ziyaretçi izin verince yüklenir; öncesinde veya ret durumunda Google isteği gönderilmez. Kişisel notlar okunmaz; izin verildiğinde sorgu ve hash içermeyen sayfa adresiyle `page_view` gönderilir. Ölçüm tercihi footer’daki “Ziyaret ölçümü” düğmesinden değiştirilebilir. Yerel sunucuda izin arayüzü denense bile Google yüklenmez.
+GA4 ziyaret ölçümü, Hikmet Evi web akışının gerçek `G-G984Q6CE14` kimliğiyle 13 içerik sayfasında etkinleştirilmiştir. `analytics.js`, kimliği script etiketindeki `data-measurement-id` alanından okur. Enhanced Measurement akış ayarlarında kapalıdır; Google Signals ve reklam izinleri kodda kapalıdır. Google etiketi yalnız ziyaretçi izin verince yüklenir; öncesinde veya ret durumunda Google isteği gönderilmez. Kişisel notlar okunmaz; izin verildiğinde sorgu ve hash içermeyen sayfa adresiyle `page_view` gönderilir. Ölçüm tercihi footer’daki “Ziyaret ölçümü” düğmesinden değiştirilebilir. Yerel sunucuda izin arayüzü denense bile Google yüklenmez.
+
+
+## Gutas ile derin okuma
+
+[gutas.html](https://alicetinkaya76.github.io/hikmet-evi/gutas.html), iki kitapla okuma için dört Lyons–Gutas karşılaştırması, Gutas’ın yedi bölümünün özgün kısa özetleri ve tartışma soruları, dört ihtiyaç penceresi ve sekiz kişi/çevre arasında altı kaynaklı ilişki sunar. Beytü’l-Hikme konusundaki yorum farkı görünür tutulur; yazar görüşleri birbirine mal edilmez. Basılı Türkçe sayfa numaraları verilir. Tam telifli kitap dosyaları kamuya yüklenmez.
+
+Anasayfa ve ana menü, Eserler, Çeviriler ve Kaynaklar sayfaları bu rehbere bağlanır. Katalogdaki on dört tarihsel eser kaydı korunur. `assets/gutas-data.json` düzenlenmiş içerik verisidir; HTML bu veriden çalışma alanındaki `work/build_gutas_site.py` ile üretilir. Masaüstünde bağlantılı SVG, mobilde sıralı ilişki listesi ve filtrelenebilir kişi kartları kullanılır. JavaScript kapalıyken içerik ve yerel açılır bölümler okunabilir; kişisel okuma notlarının anahtarları değiştirilmez.
